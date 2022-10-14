@@ -1,3 +1,8 @@
+/**
+ * Asynkron function til at fetche API'er med
+ * @param {String} endpoint 
+ * @returns Data Array
+ */
 export async function fetchApi(endpoint) {
 	try {
 		const response = await fetch(endpoint)
