@@ -1,2 +1,2 @@
-# H1WE080122---Javascript-
+# H1WE080122 Javascript
 Code Along Snippets
