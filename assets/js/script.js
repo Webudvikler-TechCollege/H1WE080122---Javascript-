@@ -12,14 +12,14 @@ import { fetchApi } from "./helpers.js"
 	console.log(users)
 })()
 
-
-// DOM Button Elements
-const btn1 = document.getElementById('btn1')
-const btn2 = document.getElementById('btn2')
-
 /**
  * Function til tjek af alder
  */
+
+// DOM Button Elements
+const btn1 = document.getElementById('btn1')
+
+
 const checkAge = () => {
 	const form = document.getElementById('myForm')
 	const result = (form.age.value < 18) ? 
@@ -30,6 +30,9 @@ const checkAge = () => {
 	console.log(result);
 }
 
+/**
+ * Check Age Funktionskald 
+ */
 btn1.onclick = checkAge
 
 
